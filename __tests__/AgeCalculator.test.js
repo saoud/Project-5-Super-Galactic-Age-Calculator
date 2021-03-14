@@ -6,8 +6,8 @@ describe('AgeCalculator', () => {
   let AgeCalculator; 
 
   beforeEach(() => {
-    AgeCalculator = new AgeCalculator(30, lifeExpectancy)
-    AgeCalculator.age = 30;
+    let AgeCalculator = new AgeCalculator(30, lifeExpectancy)
+    // let AgeCalculator.age = 30;
   });
   test('It should have 30 stored in the age property', () => {
     expect (AgeCalculator.age).toEqual(30);
