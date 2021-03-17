@@ -2,13 +2,12 @@
 import AgeCalculator from './../src/galacticAge.js';
 
 describe('AgeCalculator', () => {
-  let AgeCalculator;
+  let person;
   
   beforeEach(() => {
-    AgeCalculator = new AgeCalculator(30," ");
-    // let AgeCalculator.age = 30;
+    person = new AgeCalculator(30, 74);
   });
   test('It should have 30 stored in the age property', () => {
-    expect(AgeCalculator.age).toEqual(30);
+    expect(person.age).toEqual(30);
   });
 });
