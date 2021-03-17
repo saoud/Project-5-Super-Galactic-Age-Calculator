@@ -10,7 +10,6 @@
     "test": "jest --coverage"
   },
   "repository": {
-    "type": "git",
     "type": "module",
     "url": "git+https://github.com/saoud/jsEnvTemplate.git"
   },
