@@ -15,18 +15,18 @@ describe('AgeCalculator', () => {
     expect(person.lifeExpectancy).toEqual(74);
   });
   test('It should return the user age in mercury years', () => {
-    expect(person.mercuryAge).toEqual(7.2);
+    expect(person.mercuryAge).toEqual("7.2");
   });
   test('It should return the user age in venus years', () => {
-    expect(person.venusAge).toEqual(18.6);
+    expect(person.venusAge).toEqual("18.6");
     });
     test('It should return the user age in mars years', () => {
-    expect(person.marsAge).toEqual(56.4);
+    expect(person.marsAge).toEqual("56.4");
     });
     test('It should return the user age in Jupiter years', () => {
-    expect(person.jupiterAge).toEqual(355.8);
+    expect(person.jupiterAge).toEqual("355.8");
     });
     test('It should return the user age in Years Left', () => {
-    expect(person.yearsLeft).toEqual(60);
+    expect(person.yearsLeft).toEqual("60.0");
     });
 });
