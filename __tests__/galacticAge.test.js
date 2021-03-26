@@ -1,11 +1,10 @@
-// import { TestScheduler } from 'jest';
-import AgeCalculator from './../src/galacticAge.js';
+import galacticAge from './../src/galacticAge.js';
 
-describe('AgeCalculator', () => {
+describe('galacticAge', () => {
   let person;
   
   beforeEach(() => {
-    person = new AgeCalculator(30, 74, 7.2, 18.6, 56.4, 355.8, 60);
+    person = new galacticAge(30, 74, 7.2, 18.6, 56.4, 355.8, 60);
   });
   test('It should have 30 stored in the age property', () => {
     expect(person.age).toEqual(30);
