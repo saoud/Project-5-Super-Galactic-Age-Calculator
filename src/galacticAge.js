@@ -11,7 +11,7 @@ export class Age  {
       return this.yearsLeft = `Your remaining life is about`;
     } else  {
       return this.yearsLeft = `You have outlived your life expectancy by`;
-    };
+    }
   }
 
   mercury()  {
@@ -45,4 +45,4 @@ export class Age  {
     this.jupiterAbs = Math.abs(this.jupiterExp - this.jupiterAge);
     return `Your Jupiter stats: Age - ${this.jupiterAge}, Expected life - ${this.jupiterExp}, ${this.yearsLeft} ${this.jupiterAbs} years!`;
   }
-};
+}
