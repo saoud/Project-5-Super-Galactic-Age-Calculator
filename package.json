@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saoud/jsEnvTemplate.git"
+    "url": "git+https://github.com/saoud/Project-5-Super-Galactic-Age-Calculator.git"
   },
   "keywords": [],
   "author": "Cat Denton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saoud/jsEnvTemplate/issues"
+    "url": "https://github.com/saoud/Project-5-Super-Galactic-Age-Calculator/issues"
   },
-  "homepage": "https://github.com/saoud/jsEnvTemplate#readme",
+  "homepage": "https://github.com/saoud/Project-5-Super-Galactic-Age-Calculator#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
