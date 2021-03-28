@@ -22,7 +22,6 @@ Take a person's age in years and create a class that does the following:
 * JQuery 3.5.1
 * Babel/core 7.6.4
 * Babel/plugin-transform-modules-commonjs 7.6.0
-* Bootstrap 4.5.0
 * clean-webpack-plugin 3.0.0
 * eslint 6.3.0
 * eslint-loader 3.0.0
@@ -33,13 +32,9 @@ Take a person's age in years and create a class that does the following:
 ## Set up / Installation requirements
 * Open the terminal in your machine
 * Navigate to the directory where you would like to save this project 
-* Clone the project with $ git clone LINK TO GITHUB
+* Clone the project with $ git clone https://github.com/saoud/Project-5-Super-Galactic-Age-Calculator.git
 * Recreate this project's environment with $ `npm install`
-* Create a file to store variables you want to keep secret $ touch .env  
 * Create production environment with terminal command $ `npm run build`
-* Visit the ExhangeRate-API site. Input your email address and click the "Get Free Key" button. 
-* You'll be prompted to create an account with your email, first name and a password. Agree to the terms of use and click "Get Started!". You'll be able to access a dashboard that includes your API key as well as your remaining API calls for the month. 
-* Place your token in the .env file at the top level of your directory. Using API_KEY=[enter key here]
 * Start server with command $ `npm run start`
  
 ## Known Bugs
