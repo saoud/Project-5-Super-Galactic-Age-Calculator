@@ -35,7 +35,7 @@ Take a person's age in years and create a class that does the following:
 * Clone the project with $ git clone https://github.com/saoud/Project-5-Super-Galactic-Age-Calculator.git
 * Recreate this project's environment with $ `npm install`
 * Create production environment with terminal command $ `npm run build`
-* Start server with command $ `npm run start`
+* Run the tests to see functionality $ `npm test`
  
 ## Known Bugs
 * No known bugs
